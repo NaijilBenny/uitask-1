@@ -1,0 +1,233 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.Goalphin{
+  color:#7EBEA1 ;
+}
+.Dui{
+  margin-top: 50px;
+  margin-left: -50px;
+  font-size: 80px;
+  
+}
+span.meta-txt{
+  color:#29A8A1 ;
+}
+.Know-more{
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border:solid #7EBEA1;
+  background-color: #7DDBA6;
+  margin-left: 150px;
+  font-size: 30px;
+color: white;
+}
+.Know-more:hover{
+  background-color: #40dc96;
+  border: solid black;
+}
+.featur{
+  margin-top: 100px;
+}
+.vr-icon{
+  margin-left: 50px;
+  border: solid rgba(0, 0, 0, 0.45);
+  border-radius: 40px;
+}
+/* slider */
+.pagSlide {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;        
+  width: auto;
+  margin-top: -120px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;        
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.dotscontainer {
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #7DDBA6;
+}
+.Metaversity-sub-title{
+  margin-top: 50px;
+}
+.White-vr{
+  margin-top: -70px;
+  width: 500px;
+}
+.meta-txt{
+  color:#29A8A1 ;
+}
+.Goalphin-Course{
+  margin-top: 80px;
+}
+.Course{
+  width: 600px;
+  margin-top: 50px;
+}
+.Courselst{
+  margin-top: 50px;
+  margin-left: 10px;
+  list-style: none;
+  letter-spacing: 2.5px;
+  font-size: 30px;
+}
+.Loren-ipsum{
+  width: 60px;
+  margin-right: 100px;
+}
+.Loren-ipsum1{
+  width: 60px;
+  margin-right: 150px;
+}
+/* slider 2 */
+
+.slidescontainer2 {
+  position: relative;
+}
+
+.pagSlide2 {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+
+
+.next2 {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+.dotscontainer2 {
+  text-align: center;
+}
+
+.dot2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active2,
+.dot2:hover {
+  background-color: #7ddba6;
+}
+.bootcamp-lst{
+  margin-top: 30px;
+}
+
+
+/* footer */
+
+footer {
+  background-color: #EEEEEE;
+  margin-top: 30px;
+  margin-left: -120px;
+  margin-right: -120px;
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex-basis: calc(20% - 20px);
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.footer-section a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #555;
+}
+
+.footer-bottom {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
